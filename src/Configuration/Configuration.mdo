@@ -43,6 +43,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Бонд</subsystems>
   <subsystems>Subsystem.КлиентHTTP</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
@@ -366,6 +367,7 @@
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
+  <commonModules>CommonModule.БондОбщий</commonModules>
   <commonModules>CommonModule.ВерсионированиеОбъектов</commonModules>
   <commonModules>CommonModule.ВерсионированиеОбъектовКлиент</commonModules>
   <commonModules>CommonModule.ВерсионированиеОбъектовПереопределяемый</commonModules>
@@ -607,6 +609,7 @@
   <commonForms>CommonForm.ФайлыВТоме</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
+  <catalogs>Catalog.Акции</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>

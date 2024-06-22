@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02379605-cc19-40d5-b4b3-38c7eef36baf">
+  <name>Бонд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонд</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.БондОбщий</content>
+  <content>Catalog.Акции</content>
+</mdclass:Subsystem>
