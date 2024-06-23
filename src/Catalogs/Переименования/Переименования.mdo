@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95386a0f-3081-4970-9958-0d7a6a62f379">
+  <producedTypes>
+    <objectType typeId="9f0c9f44-99de-4e25-a76a-a25b335ea4b2" valueTypeId="1e5098f9-6c5a-46c5-983f-30b83b390964"/>
+    <refType typeId="665efac7-f397-444b-912c-8dea42ea3f99" valueTypeId="08da4acb-d99b-46f7-aee6-5e23f442d7d3"/>
+    <selectionType typeId="5984f53b-b7a5-48d6-8df4-13671f3768ca" valueTypeId="326bdd26-0e82-4028-89ab-5604cc03cc1e"/>
+    <listType typeId="f9e456df-c365-4d63-9d08-24e04e0ba901" valueTypeId="35cbaca3-f46d-4fa7-9cba-29b680b23c29"/>
+    <managerType typeId="c3ae3182-f063-48ee-87bc-9c68cfcaf201" valueTypeId="2de04023-714f-46e1-aad0-645a6b78ce40"/>
+  </producedTypes>
+  <name>Переименования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переименования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Переименования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Переименования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Переименования.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2a476de9-3afc-4206-99f8-951ed569b0c6">
+    <name>action_date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbc620d4-e666-44d4-ad01-eff616df3a57">
+    <name>old_secid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Было</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="185825eb-bfb8-4ec8-b5f6-a8951ed7ee08">
+    <name>new_secid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стало</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="af32439b-3831-4ed2-b160-dd364803e69b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -618,7 +618,9 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
+  <catalogs>Catalog.Переименования</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Сплиты</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86dc035d-9ca0-4823-ac95-deb2551aa193">
+  <producedTypes>
+    <objectType typeId="0d7b8b05-d1e3-4979-96fa-adcbc8115638" valueTypeId="35700c3d-850b-4ab3-a773-65c8ad581bc6"/>
+    <refType typeId="8cc997ee-2729-456b-867e-47889b747eaa" valueTypeId="65e373eb-7baf-4397-8199-82b5fdc8eba1"/>
+    <selectionType typeId="a5e81b3a-363d-44e1-9b1a-590cd49a3d60" valueTypeId="13fd6987-edc8-479f-8560-a2821d923078"/>
+    <listType typeId="0d7ba179-93a3-4543-b644-66fee2bf2627" valueTypeId="aa89aa9d-8fc7-4e4f-b099-7c49b2dadb71"/>
+    <managerType typeId="92aa9c43-8b5d-47c2-ad7e-c4c2058df322" valueTypeId="72065cc8-32b3-4f6f-ab37-51639c48e954"/>
+  </producedTypes>
+  <name>Сплиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сплиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сплиты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сплиты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Сплиты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ab3e9c73-5c29-43ca-ab28-e2e83c6a140f">
+    <name>tradedate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa180149-a3bc-4520-bb10-d6911c49e946">
+    <name>secid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Secid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d1d4bbc-ba52-4a95-9fc0-c419689d526b">
+    <name>before</name>
+    <synonym>
+      <key>ru</key>
+      <value>Было</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f7ed34b-df1f-417a-a8cf-93e69beabb6d">
+    <name>after</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стало</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="229b206d-dfef-4889-8980-7cddd901ad7a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

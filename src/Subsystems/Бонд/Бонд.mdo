@@ -9,4 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.БондОбщий</content>
   <content>Catalog.Акции</content>
+  <content>Catalog.Сплиты</content>
+  <content>Catalog.Переименования</content>
 </mdclass:Subsystem>
