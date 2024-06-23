@@ -479,11 +479,29 @@
       <key>ru</key>
       <value>Изменение торговых кодов</value>
     </synonym>
-    <attributes uuid="d52ba74b-5edb-4a0e-b116-a35265ad8727">
-      <name>Дата</name>
+    <attributes uuid="3c85cbe1-ad74-4b03-b2db-4bd2bfa4636d">
+      <name>Код</name>
       <synonym>
         <key>ru</key>
-        <value>Дата</value>
+        <value>SECID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d52ba74b-5edb-4a0e-b116-a35265ad8727">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
       </synonym>
       <type>
         <types>Date</types>
@@ -497,17 +515,17 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="3c85cbe1-ad74-4b03-b2db-4bd2bfa4636d">
-      <name>Код</name>
+    <attributes uuid="550091cd-6280-4f4e-83f9-156b1c1ad90e">
+      <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
-        <value>SECID</value>
+        <value>Дата окончания</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>12</length>
-        </stringQualifiers>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

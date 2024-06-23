@@ -1674,19 +1674,19 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ИзменениеТорговыхКодовДата</name>
-        <id>115</id>
+        <name>ИзменениеТорговыхКодовДатаНачала</name>
+        <id>177</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИзменениеТорговыхКодов.Дата</segments>
+          <segments>Объект.ИзменениеТорговыхКодов.ДатаНачала</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ИзменениеТорговыхКодовДатаРасширеннаяПодсказка</name>
-          <id>117</id>
+          <name>ИзменениеТорговыхКодовДатаНачалаРасширеннаяПодсказка</name>
+          <id>179</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1700,8 +1700,58 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИзменениеТорговыхКодовДатаКонтекстноеМеню</name>
-          <id>116</id>
+          <name>ИзменениеТорговыхКодовДатаНачалаКонтекстноеМеню</name>
+          <id>178</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИзменениеТорговыхКодовДатаОкончания</name>
+        <id>174</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИзменениеТорговыхКодов.ДатаОкончания</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ИзменениеТорговыхКодовДатаОкончанияРасширеннаяПодсказка</name>
+          <id>176</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИзменениеТорговыхКодовДатаОкончанияКонтекстноеМеню</name>
+          <id>175</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2408,6 +2458,36 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаЗагрузитьПереименования</name>
+      <id>172</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗагрузитьПереименованияРасширеннаяПодсказка</name>
+        <id>173</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗагрузитьПереименования</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -2478,6 +2558,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗагрузитьС_MOEX</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьПереименования</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить переименования</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьПереименования</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
