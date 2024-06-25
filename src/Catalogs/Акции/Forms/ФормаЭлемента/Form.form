@@ -1602,11 +1602,11 @@
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <items xsi:type="form:Table">
-      <name>ИзменениеТорговыхКодов</name>
+      <name>ТорговыеКоды</name>
       <id>99</id>
       <title>
         <key>ru</key>
-        <value>Изменение Торговых Кодов</value>
+        <value>Торговые Коды</value>
       </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.AccentColor</color>
@@ -1620,7 +1620,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИзменениеТорговыхКодов</segments>
+        <segments>Объект.ТорговыеКоды</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
       <items xsi:type="form:FormField">
@@ -1632,7 +1632,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИзменениеТорговыхКодов.LineNumber</segments>
+          <segments>Объект.ТорговыеКоды.LineNumber</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИзменениеТорговыхКодовНомерСтрокиРасширеннаяПодсказка</name>
@@ -1682,7 +1682,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИзменениеТорговыхКодов.ДатаНачала</segments>
+          <segments>Объект.ТорговыеКоды.ДатаНачала</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИзменениеТорговыхКодовДатаНачалаРасширеннаяПодсказка</name>
@@ -1732,7 +1732,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИзменениеТорговыхКодов.ДатаОкончания</segments>
+          <segments>Объект.ТорговыеКоды.ДатаОкончания</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИзменениеТорговыхКодовДатаОкончанияРасширеннаяПодсказка</name>
@@ -1782,7 +1782,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИзменениеТорговыхКодов.Код</segments>
+          <segments>Объект.ТорговыеКоды.Код</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИзменениеТорговыхКодовКодРасширеннаяПодсказка</name>
@@ -1824,7 +1824,7 @@
         </extInfo>
       </items>
       <autoCommandBar>
-        <name>ИзменениеТорговыхКодовКоманднаяПанель</name>
+        <name>ТорговыеКодыКоманднаяПанель</name>
         <id>100</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1840,10 +1840,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>ИзменениеТорговыхКодовСтрокаПоиска</name>
+        <name>ТорговыеКодыСтрокаПоиска</name>
         <id>103</id>
         <extendedTooltip>
-          <name>ИзменениеТорговыхКодовСтрокаПоискаРасширеннаяПодсказка</name>
+          <name>ТорговыеКодыСтрокаПоискаРасширеннаяПодсказка</name>
           <id>105</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1858,7 +1858,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИзменениеТорговыхКодовСтрокаПоискаКонтекстноеМеню</name>
+          <name>ТорговыеКодыСтрокаПоискаКонтекстноеМеню</name>
           <id>104</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1867,7 +1867,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ИзменениеТорговыхКодовСтрокаПоиска</source>
+        <source>ТорговыеКодыСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1878,10 +1878,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>ИзменениеТорговыхКодовСостояниеПросмотра</name>
+        <name>ТорговыеКодыСостояниеПросмотра</name>
         <id>109</id>
         <extendedTooltip>
-          <name>ИзменениеТорговыхКодовСостояниеПросмотраРасширеннаяПодсказка</name>
+          <name>ТорговыеКодыСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>111</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1896,7 +1896,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИзменениеТорговыхКодовСостояниеПросмотраКонтекстноеМеню</name>
+          <name>ТорговыеКодыСостояниеПросмотраКонтекстноеМеню</name>
           <id>110</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1906,7 +1906,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ИзменениеТорговыхКодовСостояниеПросмотра</source>
+        <source>ТорговыеКодыСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1917,10 +1917,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <name>ИзменениеТорговыхКодовУправлениеПоиском</name>
+        <name>ТорговыеКодыУправлениеПоиском</name>
         <id>106</id>
         <extendedTooltip>
-          <name>ИзменениеТорговыхКодовУправлениеПоискомРасширеннаяПодсказка</name>
+          <name>ТорговыеКодыУправлениеПоискомРасширеннаяПодсказка</name>
           <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1935,7 +1935,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИзменениеТорговыхКодовУправлениеПоискомКонтекстноеМеню</name>
+          <name>ТорговыеКодыУправлениеПоискомКонтекстноеМеню</name>
           <id>107</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1945,13 +1945,13 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ИзменениеТорговыхКодовУправлениеПоиском</source>
+        <source>ТорговыеКодыУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ИзменениеТорговыхКодовРасширеннаяПодсказка</name>
+        <name>ТорговыеКодыРасширеннаяПодсказка</name>
         <id>102</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1966,7 +1966,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИзменениеТорговыхКодовКонтекстноеМеню</name>
+        <name>ТорговыеКодыКонтекстноеМеню</name>
         <id>101</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2420,7 +2420,6 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

@@ -474,10 +474,10 @@
       <objectType typeId="ee74feec-2bf2-4a8e-95f2-0c24668af462" valueTypeId="59ed2fd5-b04b-4f74-b8e6-1e3a17f2a0fc"/>
       <rowType typeId="003e65a6-bcca-4f33-8395-344767fb426a" valueTypeId="a342f023-0e5d-4b1f-8a21-706e7259fbc0"/>
     </producedTypes>
-    <name>ИзменениеТорговыхКодов</name>
+    <name>ТорговыеКоды</name>
     <synonym>
       <key>ru</key>
-      <value>Изменение торговых кодов</value>
+      <value>Торговые коды</value>
     </synonym>
     <attributes uuid="3c85cbe1-ad74-4b03-b2db-4bd2bfa4636d">
       <name>Код</name>
