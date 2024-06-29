@@ -620,10 +620,12 @@
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.Переименования</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Портфели</catalogs>
   <catalogs>Catalog.Сплиты</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <documents>Document.Сделка</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
@@ -642,6 +644,7 @@
   <enums>Enum.СрокиХраненияВерсий</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
+  <enums>Enum.ТипСделки</enums>
   <enums>Enum.ТипыВерсийОбъекта</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыФайловДляВстроенногоРедактора</enums>
@@ -659,6 +662,7 @@
   <reports>Report.СведенияОПользователях</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</dataProcessors>
   <dataProcessors>DataProcessor.КонсольКлиентаHTTP</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>

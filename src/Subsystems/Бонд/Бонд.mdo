@@ -11,4 +11,8 @@
   <content>Catalog.Акции</content>
   <content>Catalog.Сплиты</content>
   <content>Catalog.Переименования</content>
+  <content>Enum.ТипСделки</content>
+  <content>Catalog.Портфели</content>
+  <content>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</content>
+  <content>Document.Сделка</content>
 </mdclass:Subsystem>

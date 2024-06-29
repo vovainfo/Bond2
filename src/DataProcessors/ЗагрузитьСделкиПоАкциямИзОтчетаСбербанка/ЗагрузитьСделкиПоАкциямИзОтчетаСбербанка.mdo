@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08143a08-3908-4f07-a69d-ff72cacbda47">
+  <producedTypes>
+    <objectType typeId="313844c0-a25a-4eea-85c7-73f1b2d827f2" valueTypeId="be1353df-8219-4c9c-b933-12c977bb4682"/>
+    <managerType typeId="8b8351b3-0961-43d5-86db-86d783c76997" valueTypeId="e5f1e60a-9555-4421-b02e-c4db74f12938"/>
+  </producedTypes>
+  <name>ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить сделки по акциям из отчета сбербанка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузитьСделкиПоАкциямИзОтчетаСбербанка.Form.ЗагрузитьСделки</defaultForm>
+  <forms uuid="057161b9-e39b-4dca-8dcd-03ee53566c6d">
+    <name>ЗагрузитьСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить сделки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
